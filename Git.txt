@@ -1,0 +1,44 @@
+Your branch is up to date with 'origin/main'.
+
+(base) D:\Projects>git add .
+
+(base) D:\Projects>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   requirement.txt
+        new file:   setup.py
+        new file:   src/__init__.py
+
+
+(base) D:\Projects>git commit -m "setup"
+[main 83f2743] setup
+ 3 files changed, 32 insertions(+)
+ create mode 100644 requirement.txt
+ create mode 100644 setup.py
+ create mode 100644 src/__init__.py
+
+(base) D:\Projects>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 815 bytes | 815.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/unmesh2696/mlprojects.git
+   f0d5180..83f2743  main -> main
+branch 'main' set up to track 'origin/main'.
+
+(base) D:\Projects>
+ *  History restored 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\Projects>
+ *  History restored 
+
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.

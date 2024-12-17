@@ -1,0 +1,4 @@
+open cmd 
+cd Enter a path 
+type command (code .) to open vs code
+
