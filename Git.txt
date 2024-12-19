@@ -42,3 +42,7 @@ D:\Projects>
 
 Microsoft Windows [Version 10.0.22631.4602]
 (c) Microsoft Corporation. All rights reserved.
+
+conda activate venv/
+
+pip install -r requirement.txt
